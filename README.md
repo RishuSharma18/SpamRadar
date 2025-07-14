@@ -1,38 +1,39 @@
-# 🛡️ SpamRadar – AI-powered SMS Spam Classifier App
+# 🛡️ SpamRadar – AI-Powered SMS Spam Detection App
 
-SpamRadar is a lightweight, intelligent web app that classifies text messages as **Spam** or **Not Spam** using machine learning.  
-It uses a **Multinomial Naive Bayes** model trained on SMS spam dataset, wrapped inside a clean and responsive **Streamlit interface** — ideal for real-time usage, batch prediction, and recruiter demos.
+**SpamRadar** is a smart and lightweight web app that classifies SMS messages as **Spam** or **Not Spam** using a trained Machine Learning model.  
+Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time classification, batch analysis, and recruiter portfolio demos.
 
 ---
 
 ## 🚀 Features
 
-✅ Real-time SMS spam classification  
-📂 CSV Upload to scan multiple messages  
-📊 Prediction confidence percentage  
-🧠 Spam trigger-word highlighter (e.g., “win”, “free”, “offer”)  
-🔐 Admin panel (password-protected) to view prediction logs  
-🗂️ SQLite3 logging of predictions with timestamps  
-📱 Mobile-friendly responsive layout  
-🌐 Deployable on **Streamlit Cloud** instantly
+- ✅ Instant SMS Spam Detection (real-time message classification)
+- 📂 Batch CSV Upload (analyze multiple messages at once)
+- 📊 Confidence Score (how likely a message is spam)
+- 🧠 Spam Trigger Word Highlighter (e.g., "win", "free", "offer")
+- 🔐 Admin Panel to View Logged Predictions (secured with password)
+- 🗂️ SQLite3 Logging (store message, prediction, confidence, timestamp)
+- 📱 Responsive & Mobile-Friendly UI
+- ☁️ 1-Click Deployable on Streamlit Cloud
 
 ---
 
 ## 📦 Dataset Used
 
 - **Source**: [UCI SMS Spam Collection Dataset (via Kaggle)](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
-- 5,572 labeled SMS messages (ham/spam)
+- **Size**: 5,572 labeled SMS messages  
+- **Classes**: `ham` (legit) and `spam`
 
 ---
 
-## 🧠 Model & NLP Pipeline
+## 🧠 ML Model & NLP Pipeline
 
-- **Model**: Multinomial Naive Bayes
-- **Vectorization**: TF-IDF (stopwords removed)
-- **Preprocessing**:
-  - Lowercasing
-  - Digit and punctuation removal
-  - Extra space stripping
+- 🔍 **Model**: Multinomial Naive Bayes (Scikit-learn)
+- ✒️ **Vectorization**: TF-IDF (with stopword removal)
+- 🧹 **Text Preprocessing**:
+  - Lowercasing  
+  - Removing digits and punctuation  
+  - Whitespace cleanup
 
 ---
 
@@ -45,22 +46,22 @@ It uses a **Multinomial Naive Bayes** model trained on SMS spam dataset, wrapped
 | **Recall**    | `77% (spam)`  |
 | **F1-Score**  | `87% (spam)`  |
 
-📈 Ham messages: 100% recall  
-📉 Spam messages: Balanced recall to reduce false negatives
+📈 **Ham** messages are classified with perfect recall (100%)  
+📉 **Spam** messages are detected with high precision and balanced recall
 
 ---
 
-## 🧰 Tech Stack
+## 🛠️ Tech Stack
 
-| Layer          | Tools/Libraries                   |
-|----------------|-----------------------------------|
-| Language       | Python                            |
-| Web Framework  | Streamlit                         |
-| ML Model       | Naive Bayes (Scikit-learn)        |
-| Vectorization  | TF-IDF (Scikit-learn)             |
-| Database       | SQLite3                           |
-| Deployment     | Streamlit Cloud                   |
-| Version Control| Git + GitHub                      |
+| Layer          | Tools & Libraries               |
+|----------------|---------------------------------|
+| Language       | Python                          |
+| ML Framework   | Scikit-learn                    |
+| NLP Engine     | TF-IDF Vectorizer               |
+| UI Framework   | Streamlit                       |
+| Data Logging   | SQLite3                         |
+| Deployment     | Streamlit Cloud                 |
+| Version Control| Git + GitHub                    |
 
 ---
 
@@ -84,7 +85,7 @@ Protected using:
 `st.secrets["admin_password"]`
 
 ## 🌍 Live App Demo
-🔗 Click to Open Live App
+🔗 https://spamradar.streamlit.app/
 
 👨‍💻 Developer
 Rishu Sharma
