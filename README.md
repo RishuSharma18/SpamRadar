@@ -3,8 +3,6 @@
 **SpamRadar** is a smart and lightweight web app that classifies SMS messages as **Spam** or **Not Spam** using a trained Machine Learning model.  
 Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time classification, batch analysis, and recruiter portfolio demos.
 
----
-
 ## 🚀 Features
 
 - ✅ Instant SMS Spam Detection (real-time message classification)
@@ -16,15 +14,11 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 - 📱 Responsive & Mobile-Friendly UI
 - ☁️ 1-Click Deployable on Streamlit Cloud
 
----
-
 ## 📦 Dataset Used
 
 - **Source**: [UCI SMS Spam Collection Dataset (via Kaggle)](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset)
 - **Size**: 5,572 labeled SMS messages  
 - **Classes**: `ham` (legit) and `spam`
-
----
 
 ## 🧠 ML Model & NLP Pipeline
 
@@ -34,8 +28,6 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
   - Lowercasing  
   - Removing digits and punctuation  
   - Whitespace cleanup
-
----
 
 ## 🎯 Model Performance
 
@@ -49,8 +41,6 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 📈 **Ham** messages are classified with perfect recall (100%)  
 📉 **Spam** messages are detected with high precision and balanced recall
 
----
-
 ## 🛠️ Tech Stack
 
 | Layer          | Tools & Libraries               |
@@ -63,7 +53,6 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 | Deployment     | Streamlit Cloud                 |
 | Version Control| Git + GitHub                    |
 
----
 
 ## 🗂️ Project Structure
 
@@ -78,20 +67,14 @@ SpamRadar/
 ├── .gitignore # Files to ignore in Git
 └── README.md # This file
 
----
-
 ## 🔐 Admin Panel (Secure Logging)
 Admin panel lets you view all predictions logged in the database
 
 Protected using:
 `st.secrets["admin_password"]`
 
----
-
 ## 🌍 Live App Demo
 🔗 [**SpamRadar**](https://spamradar.streamlit.app/)
-
----
 
  ## 👨‍💻 Developer
 [**Rishu Sharma**](https://github.com/RishuSharma18)  
