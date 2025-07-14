@@ -78,15 +78,22 @@ SpamRadar/
 ├── .gitignore # Files to ignore in Git
 └── README.md # This file
 
+---
+
 ## 🔐 Admin Panel (Secure Logging)
 Admin panel lets you view all predictions logged in the database
 
 Protected using:
 `st.secrets["admin_password"]`
 
-## 🌍 Live App Demo
-🔗 https://spamradar.streamlit.app/
+---
 
-👨‍💻 Developer
-Rishu Sharma
+## 🌍 Live App Demo
+🔗 [**SpamRadar**](https://spamradar.streamlit.app/)
+
+---
+
+ ## 👨‍💻 Developer
+[**Rishu Sharma**](https://github.com/RishuSharma18)  
+B.Tech CSE (Data Science) Student
 🎓 B.Tech CSE | ML & Data Science Enthusiast
