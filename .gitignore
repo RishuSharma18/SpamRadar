@@ -3,7 +3,6 @@ __pycache__/
 *.pyc
 
 # Model & environment files
-*.pkl
 *.db
 .env
 
