@@ -1,0 +1,18 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Model & environment files
+*.pkl
+*.db
+.env
+
+# Streamlit config
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
