@@ -56,8 +56,8 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 
 ## 🗂️ Project Structure
 
-```SpamRadar/
-
+SpamRadar/
+```
 ├── app.py # Streamlit app
 ├── spam_classifier.ipynb # Notebook for model training & testing
 ├── spam_model.pkl # Trained Naive Bayes model
