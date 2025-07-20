@@ -56,7 +56,7 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 
 ## 🗂️ Project Structure
 
-SpamRadar/
+```SpamRadar/
 
 ├── app.py # Streamlit app
 ├── spam_classifier.ipynb # Notebook for model training & testing
@@ -66,6 +66,7 @@ SpamRadar/
 ├── requirements.txt # Python package dependencies
 ├── .gitignore # Files to ignore in Git
 └── README.md # This file
+```
 
 ## 🔐 Admin Panel (Secure Logging)
 Admin panel lets you view all predictions logged in the database
