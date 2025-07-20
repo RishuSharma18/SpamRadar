@@ -22,9 +22,9 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 
 ## 🧠 ML Model & NLP Pipeline
 
-- 🔍 **Model**: Multinomial Naive Bayes (Scikit-learn)
-- ✒️ **Vectorization**: TF-IDF (with stopword removal)
-- 🧹 **Text Preprocessing**:
+- **Model**: Multinomial Naive Bayes (Scikit-learn)
+- ✒**Vectorization**: TF-IDF (with stopword removal)
+- **Text Preprocessing**:
   - Lowercasing  
   - Removing digits and punctuation  
   - Whitespace cleanup
@@ -74,7 +74,7 @@ Admin panel lets you view all predictions logged in the database
 Protected using:
 `st.secrets["admin_password"]`
 
-## 🌍 Live App Demo
+##  Live App Demo
 🔗 [**SpamRadar** - click here](https://spamradar.streamlit.app/)
 
  ## 👨‍💻 Developer
