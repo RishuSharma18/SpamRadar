@@ -23,7 +23,7 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 ## 🧠 ML Model & NLP Pipeline
 
 - **Model**: Multinomial Naive Bayes (Scikit-learn)
-- ✒**Vectorization**: TF-IDF (with stopword removal)
+- **Vectorization**: TF-IDF (with stopword removal)
 - **Text Preprocessing**:
   - Lowercasing  
   - Removing digits and punctuation  
@@ -38,8 +38,8 @@ Built with a clean and interactive **Streamlit UI**, it’s ideal for real-time 
 | **Recall**    | `77% (spam)`  |
 | **F1-Score**  | `87% (spam)`  |
 
-📈 **Ham** messages are classified with perfect recall (100%)  
-📉 **Spam** messages are detected with high precision and balanced recall
+**Ham** messages are classified with perfect recall (100%)  
+**Spam** messages are detected with high precision and balanced recall
 
 ## 🛠️ Tech Stack
 
@@ -79,4 +79,4 @@ Protected using:
 
  ## 👨‍💻 Developer
 [**Rishu Sharma**](https://github.com/RishuSharma18)  
-🎓 B.Tech CSE | ML & Data Science Enthusiast
+ B.Tech CSE (Data Science) student| ML & Data Science Enthusiast
